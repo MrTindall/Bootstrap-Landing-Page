@@ -8,3 +8,14 @@
 .dropdown-menu {
     margin-top: 0;
 }
+
+.carousel-image {
+    height: 600px;
+    object-fit: cover;
+}
+
+.icon-img {
+    height: 40px;
+    width: 40px;
+
+}
