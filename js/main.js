@@ -3,7 +3,6 @@ document.addEventListener("DOMContentLoaded", () => {
     const cost = document.getElementById("cost");
     const salary = document.getElementById("salary")
 
-
     countUpTo(96, percent, 1, 25);
     countUpTo(149, cost, 1, 20);
     countUpTo(51960, salary, 60, 1)

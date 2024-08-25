@@ -13,9 +13,9 @@
 <body>
 
     <!-- First Navbar -->
-    <div class="container">
+    <div class="container-fluid">
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
+            <div class="container-fluid navbar-1">
                 <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                     <ul class="navbar-nav mb-2 mb-lg-0">
                         <li class="nav-item">
@@ -101,14 +101,27 @@
             </div>
         </nav>
     </div>
+    <!-- Image Carousel -->
     <div class="container-fluid">
         <div id="carouselExample" class="carousel slide">
             <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="img/foundations-of-ai-h.jpg" class="d-block w-100 carousel-image" alt="foundations">
+                <div class="carousel-item active ai">
+                    <container
+                        style="background-image: url(img/foundations-of-ai-h.jpg); background-repeat: no-repeat; background-size: cover;"
+                        class="d-block w-100 carousel-image" alt="foundations">
+                        <div class="ai-content">
+                            <h2 class="my-4">AI Experts Start Here</h2>
+                            <button type="button" class="btn btn-primary btn-lg">Learn More</button>
+                        </div>
+                    </container>
+
                 </div>
-                <div class="carousel-item">
-                    <img src="img/unrivaled-h.jpg" class="d-block w-100 carousel-image" alt="unrivaled">
+                <div class="carousel-item unrivaled">
+                    <container
+                        style="background-image: url(img/unrivaled-h.jpg); background-repeat: no-repeat; background-size: cover;"
+                        class="d-block w-100 carousel-image" alt="unrivaled">
+
+                    </container>
                 </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
@@ -121,64 +134,65 @@
             </button>
         </div>
     </div>
-    <div class="container">
+    <div class="container my-4">
         <div class="row">
             <!-- Left Column for Text -->
             <div class="col-md-6">
-                <h1>Why WCTC?</h1>
+                <h2>Why WCTC?</h2>
                 <p>Technology is changing fast, and so is the workplace. If you want to succeed, you need to keep up! A
                     technical
                     education is focused and relevant, preparing you for today's emerging careers while saving you both
                     time and
                     money. Experienced instructors deliver hands-on learning to provide you with the skills you need to
                     land the job
-                    you want.</p>
-                    <div class="container my-4">
-                        <div class="row justify-content-around">
-                            <div class="col-md-4">
-                                <div class="card text-center border-0">
-                                    <img src="img/Student.png" class="icon-img mx-auto p-2" alt="Student">
-                                    <div class="card-body">
-                                        <div class="d-flex justify-content-center align-items-baseline mb-3">
-                                            <h3 id="percent" class="mb-0">0</h3>
-                                            <h3 class="mb-0 ms-2">%</h3>
-                                        </div>
-                                        <p class="card-text">
-                                            SATISFIED GRADUATES
-                                        </p>
+                    you want.
+                </p>
+                <div class="container">
+                    <div class="row justify-content-around">
+                        <div class="col-md-4">
+                            <div class="card text-center border-0">
+                                <img src="img/Student.png" class="icon-img mx-auto p-2" alt="Student">
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-center align-items-baseline mb-3">
+                                        <h3 id="percent" class="mb-0">0</h3>
+                                        <h3 class="mb-0 ms-2">%</h3>
                                     </div>
+                                    <p class="card-text">
+                                        SATISFIED GRADUATES
+                                    </p>
                                 </div>
                             </div>
-                            <div class="col-md-4">
-                                <div class="card text-center border-0">
-                                    <img src="img/Wisconsin.png" class="icon-img mx-auto p-2" alt="Student">
-                                    <div class="card-body">
-                                        <div class="d-flex justify-content-center align-items-baseline mb-3">
-                                            <h3 class="mb-0">$</h3>
-                                            <h3 id="cost" class="mb-0 ms-2"></h3>
-                                        </div>
-                                        <p class="card-text">
-                                            COST PER CREDIT FOR WI RESIDENT
-                                        </p>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card text-center border-0">
+                                <img src="img/Wisconsin.png" class="icon-img mx-auto p-2" alt="Student">
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-center align-items-baseline mb-3">
+                                        <h3 class="mb-0">$</h3>
+                                        <h3 id="cost" class="mb-0 ms-2"></h3>
                                     </div>
+                                    <p class="card-text">
+                                        COST PER CREDIT FOR WI RESIDENT
+                                    </p>
                                 </div>
                             </div>
-                            <div class="col-md-4">
-                                <div class="card text-center border-0">
-                                    <img src="img/Doctor.png" class="icon-img mx-auto p-2" alt="Student">
-                                    <div class="card-body">
-                                        <div class="d-flex justify-content-center align-items-baseline mb-3">
-                                            <h3 class="mb-0">$</h3>
-                                            <h3 id="salary" class="mb-0 ms-2"></h3>
-                                        </div>
-                                        <p class="card-text">
-                                            MEDIAN STARTING SALARY
-                                        </p>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card text-center border-0">
+                                <img src="img/Doctor.png" class="icon-img mx-auto p-2" alt="Student">
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-center align-items-baseline mb-3">
+                                        <h3 class="mb-0">$</h3>
+                                        <h3 id="salary" class="mb-0 ms-2"></h3>
                                     </div>
+                                    <p class="card-text">
+                                        MEDIAN STARTING SALARY
+                                    </p>
                                 </div>
                             </div>
                         </div>
                     </div>
+                </div>
 
             </div>
             <!-- Right Column for Image -->
