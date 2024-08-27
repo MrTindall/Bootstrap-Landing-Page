@@ -16,6 +16,10 @@ body {
     padding: 0;
 }
 
+p {
+    font-size: large;
+}
+
 .container-fluid {
     padding-left: 0;
     padding-right: 0;
@@ -88,18 +92,29 @@ body {
 
 }
 
-.carousel-item.ai button {
-    width: 250px;
+.facility-content button {
+    width: 200px;
     height: 50px;
     border-radius: 0;
-    border-color: black;
-    background-color: aliceblue;
-    color: rgb(13, 13, 73);
-    font-size: 15px;
-    font-family: sans-serif;
+    border-color: rgba(235, 192, 0, 0.5);
+    background-color: rgba(235, 192, 0, 0.5);
+    color: rgb(0, 60, 120);
+    font-size: 18px;
+    font-style: bold;
+}
+
+.facility-content button:hover {
+    border-color: rgba(0, 60, 120);
+    background-color: rgba(0, 60, 120);
+    color: aliceblue;
 }
 
 .carousel-item.unrivaled h2 {
     color: aliceblue;
     font-size: 3rem;
+}
+
+.navbar {
+    margin: 0;
+    padding: 0;
 }

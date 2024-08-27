@@ -12,28 +12,30 @@
 
 <body>
     <!-- First Navbar -->
-    <div class="container-fluid">
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid navbar-1">
-                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                    <ul class="navbar-nav mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">MyWCTC</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Student Resources</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Alumni</a>
-                        </li>
-                    </ul>
-                    <form class="d-flex ms-3">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success" type="submit">Search</button>
-                    </form>
+    <div class="container-fluid nav1Background">
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid navbar-1">
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                        <ul class="navbar-nav mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">MyWCTC</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Student Resources</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Alumni</a>
+                            </li>
+                        </ul>
+                        <form class="d-flex ms-3">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success" type="submit">Search</button>
+                        </form>
+                    </div>
                 </div>
-            </div>
-        </nav>
+            </nav>
+        </div>
     </div>
 
     <!-- Second Navbar -->
@@ -41,7 +43,7 @@
         <nav class="navbar navbar-expand-lg bg-body-secondary">
             <div class="container">
                 <a class="navbar-brand" href="#"><img src="img/waukesha_logo.svg" class="logo" alt="logo"></a>
-                
+
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
                     aria-label="Toggle navigation">
@@ -79,11 +81,12 @@
                         </li>
 
                         <li class="nav-item dropdown">
-                            <a class="nav-link btn btn-secondary dropdown-toggle" href="#" role="button"
+                            <a class="nav-link btn btn-secondary dropdown-toggle active" href="#" role="button"
                                 data-bs-toggle="dropdown" aria-expanded="false">COMMUNITY</a>
                             <ul class="dropdown-menu">
                                 <li><a class="dropdown-item" href="#">Courses, Training & Continuing Education</a></li>
                                 <li><a class="dropdown-item" href="#">Business Resources</a></li>
+                                <li><a class="dropdown-item active" href="#">Facility Rental</a></li>
                             </ul>
                         </li>
 
@@ -107,11 +110,10 @@
             <div class="carousel-inner">
                 <div class="carousel-item active ai">
                     <container
-                        style="background-image: url(img/foundations-of-ai-h.jpg); background-repeat: no-repeat; background-size: cover;"
-                        class="d-block w-100 carousel-image" alt="foundations">
+                        style="background-image: url(img/facility-rentals-ajn-center-h.jpg); background-repeat: no-repeat; background-size: cover;"
+                        class="d-block w-100 carousel-image" alt="rentals">
                         <div class="ai-content">
-                            <h2 class="my-4">AI Experts Start Here</h2>
-                            <button type="button" class="btn btn-primary btn-lg">Learn More</button>
+                            <h2 class="my-4">Facility Rentals</h2>
                         </div>
                     </container>
 
@@ -120,33 +122,27 @@
                     <container
                         style="background-image: url(img/unrivaled-h.jpg); background-repeat: no-repeat; background-size: cover;"
                         class="d-block w-100 carousel-image" alt="unrivaled">
-
                     </container>
                 </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
         </div>
     </div>
-    <div class="container my-4">
+    <div class="container my-4 facility-content">
         <div class="row">
             <!-- Left Column for Text -->
-            <div class="col-md-6">
-                <h2>Why WCTC?</h2>
-                <p>Technology is changing fast, and so is the workplace. If you want to succeed, you need to keep up! A
-                    technical
-                    education is focused and relevant, preparing you for today's emerging careers while saving you both
-                    time and
-                    money. Experienced instructors deliver hands-on learning to provide you with the skills you need to
-                    land the job
-                    you want.
+            <div class="col-md-5">
+                <h2>Host your next meeting or event at WCTC!</h2>
+                <p>
+                    Our campus is full of beautiful spaces that can be customized for groups of all sizes and learning
+                    styles. Our facility
+                    rentals are affordable, convenient and up-to-date with media and technology capabilities, plus ample
+                    complimentary
+                    parking for your guests.
                 </p>
+                <p>
+                    Learn more about our available venues below, then give us a call to get started.
+                </p>
+                <button type="button" class="btn btn-primary btn-lg">Overview PDF ></button>
                 <div class="container">
                     <div class="row justify-content-around">
                         <div class="col-md-4">
@@ -196,7 +192,7 @@
 
             </div>
             <!-- Right Column for Image -->
-            <div class="col-md-6">
+            <div class="col-md-7">
                 <img src="img/wctc-students-cutouts.png" class="img-fluid" alt="Cutouts">
             </div>
         </div>
