@@ -208,3 +208,7 @@ p {
 .nav-tabs .nav-link {
     margin-bottom: -1px;
 }
+
+.tab-pane.fade .btn {
+    background-color: var(--wctc-color);
+}
