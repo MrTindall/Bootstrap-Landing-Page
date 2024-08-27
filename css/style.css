@@ -36,6 +36,26 @@ p {
     display: block;
 }
 
+.form-control {
+    background-color: rgb(0, 96, 192);
+    border: 0;
+    border-radius: 0;
+    color: aliceblue;
+}
+.form-control:focus {
+    background-color: rgb(0, 96, 192);
+    color: aliceblue;
+    outline: none;
+}
+.container-fluid.navbar-1 .btn {
+    background-color: aliceblue;
+    border-radius: 0;
+}
+.container-fluid.navbar-1 .btn:active {
+    background-color: rgb(0, 96, 192);
+}
+
+
 .dropdown-menu {
     margin-top: 0;
 }
@@ -117,4 +137,30 @@ p {
 .navbar {
     margin: 0;
     padding: 0;
+}
+
+.tab-content {
+    padding: 1.5rem;
+    border: 1px solid #ddd;
+    border-radius: 0.375rem;
+    background-color: #f8f9fa;
+}
+
+/* Styles for individual tab panes */
+.venue-description {
+    padding: 1.5rem;
+    border: 1px solid #ddd;
+    border-radius: 0.375rem;
+    background-color: #f8f9fa;
+    margin-bottom: 1.5rem;
+}
+
+/* Adjust the spacing between tabs and content */
+.nav-tabs {
+    margin-bottom: 1rem;
+}
+
+/* Ensures the tab buttons fit within the container and have proper margin */
+.nav-tabs .nav-link {
+    margin-bottom: -1px;
 }

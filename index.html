@@ -143,53 +143,6 @@
                     Learn more about our available venues below, then give us a call to get started.
                 </p>
                 <button type="button" class="btn btn-primary btn-lg">Overview PDF ></button>
-                <div class="container">
-                    <div class="row justify-content-around">
-                        <div class="col-md-4">
-                            <div class="card text-center border-0">
-                                <img src="img/Student.png" class="icon-img mx-auto p-2" alt="Student">
-                                <div class="card-body">
-                                    <div class="d-flex justify-content-center align-items-baseline mb-3">
-                                        <h3 id="percent" class="mb-0">0</h3>
-                                        <h3 class="mb-0 ms-2">%</h3>
-                                    </div>
-                                    <p class="card-text">
-                                        SATISFIED GRADUATES
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="card text-center border-0">
-                                <img src="img/Wisconsin.png" class="icon-img mx-auto p-2" alt="Student">
-                                <div class="card-body">
-                                    <div class="d-flex justify-content-center align-items-baseline mb-3">
-                                        <h3 class="mb-0">$</h3>
-                                        <h3 id="cost" class="mb-0 ms-2"></h3>
-                                    </div>
-                                    <p class="card-text">
-                                        COST PER CREDIT FOR WI RESIDENT
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="card text-center border-0">
-                                <img src="img/Doctor.png" class="icon-img mx-auto p-2" alt="Student">
-                                <div class="card-body">
-                                    <div class="d-flex justify-content-center align-items-baseline mb-3">
-                                        <h3 class="mb-0">$</h3>
-                                        <h3 id="salary" class="mb-0 ms-2"></h3>
-                                    </div>
-                                    <p class="card-text">
-                                        MEDIAN STARTING SALARY
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
             </div>
             
             <!-- 2 Column Spacer -->
@@ -200,6 +153,99 @@
                 Need to add card and tab for contact info
             </div>
         </div>
+        
+        <div class="container mt-4">
+            <div class="row">
+                <!-- Spacer Column -->
+                <div class="col-md-1"></div>
+        
+                <!-- Tabs Column -->
+                <div class="col-md-10">
+                    <!-- Nav Tabs -->
+                    <ul class="nav nav-tabs" id="venueTabs" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link active" id="ajn-tab" data-bs-toggle="tab" href="#ajn" role="tab"
+                                aria-controls="ajn" aria-selected="true">Anthony J. Natalizio Center (AJN)</a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link" id="rta-tab" data-bs-toggle="tab" href="#rta" role="tab" aria-controls="rta"
+                                aria-selected="false">Richard T. Anderson Center (RTA)</a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link" id="building-q-tab" data-bs-toggle="tab" href="#building-q" role="tab"
+                                aria-controls="building-q" aria-selected="false">Building Q</a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link" id="lecture-halls-tab" data-bs-toggle="tab" href="#lecture-halls" role="tab"
+                                aria-controls="lecture-halls" aria-selected="false">Lecture Halls</a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link" id="classic-room-tab" data-bs-toggle="tab" href="#classic-room" role="tab"
+                                aria-controls="classic-room" aria-selected="false">Classic Room Restaurant</a>
+                        </li>
+                    </ul>
+        
+                    <!-- Tab Contents -->
+                    <div class="tab-content" id="venueTabsContent">
+                        <!-- Anthony J. Natalizio Center (AJN) Tab -->
+                        <div class="tab-pane fade show active" id="ajn" role="tabpanel" aria-labelledby="ajn-tab">
+                            <div class="mt-3 venue-description">
+                                <h5>Anthony J. Natalizio Center (AJN)</h5>
+                                <p>Find delectable dining in the Classic Room, a vibrant student training restaurant available
+                                    to rent for private events.</p>
+                                <a href="#" class="btn btn-primary">Learn More</a>
+                            </div>
+                        </div>
+        
+                        <!-- Richard T. Anderson Center (RTA) Tab -->
+                        <div class="tab-pane fade" id="rta" role="tabpanel" aria-labelledby="rta-tab">
+                            <div class="mt-3 venue-description">
+                                <h5>Richard T. Anderson Center (RTA)</h5>
+                                <p>The RTA Center’s 4,500 square feet can be divided and arranged for a variety of event styles,
+                                    plus two classroom-sized breakout rooms are available just across the hall for additional
+                                    space.</p>
+                                <p><strong>Capacity:</strong> 420 (theater seating), 240 (banquet seating), 160 (classroom
+                                    seating)</p>
+                                <a href="#" class="btn btn-primary">View Availability</a>
+                            </div>
+                        </div>
+        
+                        <!-- Building Q Tab -->
+                        <div class="tab-pane fade" id="building-q" role="tabpanel" aria-labelledby="building-q-tab">
+                            <div class="mt-3 venue-description">
+                                <h5>Building Q</h5>
+                                <p>Training rooms with different sizes and configurations are available for customized corporate
+                                    training, seminars, and special events.</p>
+                                <p><strong>Capacity:</strong> 30 per room (three rooms available)</p>
+                                <a href="#" class="btn btn-primary">View Availability</a>
+                            </div>
+                        </div>
+        
+                        <!-- Lecture Halls Tab -->
+                        <div class="tab-pane fade" id="lecture-halls" role="tabpanel" aria-labelledby="lecture-halls-tab">
+                            <div class="mt-3 venue-description">
+                                <h5>Lecture Halls</h5>
+                                <p>The WCTC campus features several lecture halls, ideal for educational events and
+                                    presentations.</p>
+                                <p><strong>Capacity:</strong> 105 (half room), 210 (whole room)</p>
+                                <a href="#" class="btn btn-primary">View Availability</a>
+                            </div>
+                        </div>
+        
+                        <!-- Classic Room Restaurant Tab -->
+                        <div class="tab-pane fade" id="classic-room" role="tabpanel" aria-labelledby="classic-room-tab">
+                            <div class="mt-3 venue-description">
+                                <h5>Classic Room Restaurant</h5>
+                                <p>Find delectable dining in the Classic Room, a vibrant student training restaurant available
+                                    to rent for private events.</p>
+                                <a href="#" class="btn btn-primary">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </div>
     <script src="js/main.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
