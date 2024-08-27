@@ -42,15 +42,18 @@ p {
     border-radius: 0;
     color: aliceblue;
 }
+
 .form-control:focus {
     background-color: rgb(0, 96, 192);
     color: aliceblue;
     outline: none;
 }
+
 .container-fluid.navbar-1 .btn {
     background-color: aliceblue;
     border-radius: 0;
 }
+
 .container-fluid.navbar-1 .btn:active {
     background-color: rgb(0, 96, 192);
 }
@@ -71,7 +74,7 @@ p {
 
 .navbar .btn-outline-success {
     background-color: aliceblue;
-    color: rgb(0, 60, 120); /* Optional: change the text color for contrast */
+    color: rgb(0, 60, 120);
 }
 
 .logo {
