@@ -1,3 +1,6 @@
+// Messed up and accientally did the home page to start
+// this was set up to scroll the numbers up to there values like on the home page
+// was proud of it so I left it, may come in handy later
 document.addEventListener("DOMContentLoaded", () => {
     const percent = document.getElementById("percent");
     const cost = document.getElementById("cost");
