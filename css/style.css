@@ -1,3 +1,8 @@
+:root {
+    --wctc-color: rgb(0, 55, 109);
+    --wctc-color-light: rgb(79, 138, 197);
+    --tab-color: rgba(235, 192, 0, 0.5);
+}
 * {
     box-sizing: border-box;
     margin: 0;
@@ -31,31 +36,47 @@ p {
     padding-left: 0;
     padding-right: 0;
 }
+.nav-link.btn.btn-secondary.dropdown-toggle:hover {
+    border-bottom: solid 8px var(--wctc-color);
+}
+.nav-link.btn.btn-secondary.dropdown-toggle.active {
+    border-bottom: solid 8px var(--wctc-color);
+    background-color: rgb(238, 237, 237);
+}
+.navbar-nav .nav-item.dropdown .nav-link::after {
+    display: none;
+}
 
 .nav-item.dropdown:hover .dropdown-menu {
     display: block;
+    
 }
 
 .form-control {
-    background-color: rgb(0, 96, 192);
+    background-color: var(--wctc-color-light);
     border: 0;
     border-radius: 0;
     color: aliceblue;
 }
 
 .form-control:focus {
-    background-color: rgb(0, 96, 192);
+    background-color: var(--wctc-color-light);
     color: aliceblue;
     outline: none;
+    box-shadow: none;
+}
+
+.dropdown-item.active {
+    background-color: var(--wctc-color);
 }
 
 .container-fluid.navbar-1 .btn {
-    background-color: aliceblue;
+    background-color: rgb(238, 237, 237);
     border-radius: 0;
 }
 
 .container-fluid.navbar-1 .btn:active {
-    background-color: rgb(0, 96, 192);
+    background-color: var(--wctc-color);
 }
 
 
@@ -64,7 +85,7 @@ p {
 }
 
 .navbar.navbar-expand-lg.bg-body-tertiary .navbar-1 {
-    background-color: rgb(0, 60, 120);
+    background-color: var(--wctc-color);
     padding-right: 250px;
 }
 
@@ -75,6 +96,28 @@ p {
 .navbar .btn-outline-success {
     background-color: aliceblue;
     color: rgb(0, 60, 120);
+}
+
+.nav-item.yellow-tab .nav-link{
+    background-color: var(--tab-color);
+    height: 60px;
+    font-size: 15px;
+    padding-top: 15px;
+    margin-right: 10px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    font-weight: 700;
+    color: var(--wctc-color);
+}
+
+.nav-item.yellow-tab .nav-link:hover {
+    background-color: var(--wctc-color);
+    color: aliceblue;
+}
+
+.nav-item.yellow-tab [aria-selected="true"] {
+    background-color: var(--wctc-color);
+    color: aliceblue;
 }
 
 .logo {
@@ -119,16 +162,16 @@ p {
     width: 200px;
     height: 50px;
     border-radius: 0;
-    border-color: rgba(235, 192, 0, 0.5);
-    background-color: rgba(235, 192, 0, 0.5);
-    color: rgb(0, 60, 120);
+    border-color: var(--tab-color);
+    background-color: var(--tab-color);
+    color: var(--wctc-color);
     font-size: 18px;
-    font-style: bold;
+    font-weight: 700;
 }
 
 .facility-content button:hover {
-    border-color: rgba(0, 60, 120);
-    background-color: rgba(0, 60, 120);
+    border-color: var(--wctc-color);
+    background-color: var(--wctc-color);
     color: aliceblue;
 }
 
